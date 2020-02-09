@@ -9,11 +9,16 @@
   },
   "dependencies": {
     "@nestjs/common": "^6.5.3",
-    "@nestjs/core": "^6.5.3"
+    "@nestjs/core": "^6.5.3",
+    "@nestjs/platform-express": "^6.11.6",
+    "class-validator": "^0.11.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.4"
   },
   "devDependencies": {
     "ts-loader": "^6.2.1",
     "ts-node": "8.2.0",
+    "typescript": "^3.7.5",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-graphql-loader": "^1.0.2"
